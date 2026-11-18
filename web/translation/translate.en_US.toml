@@ -230,9 +230,6 @@
 "successLogin" = " You have successfully logged into your account."
 
 [pages.index]
-"donate" = "Donate"
-"donateTitle" = "Support VPN-UI"
-"donateIntro" = "If VPN-UI is useful to you, a donation to any of these addresses helps keep it maintained."
 "restore" = "Restore"
 "systemStatus" = "System Status"
 "title" = "Overview"
