@@ -1,12 +1,12 @@
 [English](/README.md) | [فارسی](/README_FA.md) | [العربية](/README_AR.md) | [中文](/README_ZH.md) | [Español](/README_ES.md) | [Русский](/README_RU.md) | [Türkçe](/README_TR.md)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/media/logo.png" alt="VPN-UI Logo" width="260">
+  <img src="https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/media/logo.png" alt="VPN-UI Logo" width="260">
 </p>
 
 Este proyecto es una versión mejorada del panel **[3X-UI](https://github.com/MHSanaei/3x-ui)** (versión 2.9.3). El objetivo de este proyecto es agregar diversos protocolos y ofrecerlo como un panel integral con soporte para las funciones de **Xray-core**.
 
-![Vista general](https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/media/overview.png)
+![Vista general](https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/media/overview.png)
 
 ## Nuevos protocolos
 
@@ -69,7 +69,7 @@ Este proyecto es una versión mejorada del panel **[3X-UI](https://github.com/MH
 ## Instalación del panel
 
 ```bash
-curl -Ls https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/deploy.sh | sudo bash
+curl -Ls https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/deploy.sh | sudo bash
 ```
 
 ## Desinstalación del panel
@@ -200,13 +200,13 @@ flowchart TB
 ## Compilación desde el código fuente
 
 ```bash
-git clone https://github.com/Sir-MmD/vpn-ui.git && cd vpn-ui
+git clone https://github.com/My-VEnZo/vpn-ui.git && cd vpn-ui
 ./build.sh
 ```
 
 ## Prueba E2E
 
-![Prueba E2E](https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/media/test_unit.png)
+![Prueba E2E](https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/media/test_unit.png)
 
 Se ha diseñado para este proyecto una prueba **E2E** completa en Python dentro de la carpeta `test_unit`, que puedes utilizar. Los pasos son los siguientes:
 
@@ -253,19 +253,3 @@ Para probar solo en un sistema operativo específico, también puedes usar el sw
 ```bash
 sudo ./run.sh --only ubuntu-24
 ```
-
-## Donaciones
-
-🔹USDC-Polygon: ```0xd955379bE5813F066Cb81870bfcEA6f4bb862c24```
-
-🔹USDT-BEP20: ```0xd955379bE5813F066Cb81870bfcEA6f4bb862c24```
-
-🔹USDT-TRC20: ```TE5BGUuRce6vF3F4fXSkYY635oUt3M3hzd```
-
-🔹TRX: ```TE5BGUuRce6vF3F4fXSkYY635oUt3M3hzd```
-
-🔹LTC: ```LTbdsmqt38o9bfa3pvcHTbDz6kKzQJzSLn```
-
-🔹BTC: ```bc1qjnedhmc4x85uwqn5zvh25f697n2pmn7etu69pg```
-
-🔹ETH: ```0xd955379bE5813F066Cb81870bfcEA6f4bb862c24```
