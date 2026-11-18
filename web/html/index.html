@@ -522,7 +522,6 @@
       </div>
     </article>
 
-
     <!-- ===== connections ===== -->
 
   </div>
@@ -1373,7 +1372,6 @@
     `,
   })
 
-
   class CurTotal {
 
     constructor(current, total) {
@@ -1805,8 +1803,6 @@
       // say so: every row looks identical whether the file is there or not.
       geofileStatus: [],
       // Emitted as JS rather than into the Vue attribute that consumes them, so
-      // html/template escapes them as JS strings (see donateList above). An
-      // apostrophe in a translation would otherwise end the attribute's string.
       geofileText: {
         installed: '{{ i18n "pages.index.geofileInstalled" }}',
         notInstalled: '{{ i18n "pages.index.geofileNotInstalled" }}',
