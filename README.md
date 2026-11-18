@@ -1,12 +1,12 @@
 [English](/README.md) | [فارسی](/README_FA.md) | [العربية](/README_AR.md) | [中文](/README_ZH.md) | [Español](/README_ES.md) | [Русский](/README_RU.md) | [Türkçe](/README_TR.md)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/media/logo.png" alt="VPN-UI Logo" width="260">
+  <img src="https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/media/logo.png" alt="VPN-UI Logo" width="260">
 </p>
 
 This project is an enhanced version of the **[3X-UI](https://github.com/MHSanaei/3x-ui)** panel (version 2.9.3). The goal of this project is to add various protocols and set it up as an all-in-one panel with support for **Xray-core** features.
 
-![Overview](https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/media/overview.png)
+![Overview](https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/media/overview.png)
 
 ## New Protocols
 
@@ -78,7 +78,7 @@ the core rather than by a daemon, and they work as **inbounds and outbounds**:
 ## Installing the Panel
 
 ```bash
-curl -Ls https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/deploy.sh | sudo bash
+curl -Ls https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/deploy.sh | sudo bash
 ```
 
 ## Uninstalling the Panel
@@ -209,13 +209,13 @@ flowchart TB
 ## Building from Source
 
 ```bash
-git clone https://github.com/Sir-MmD/vpn-ui.git && cd vpn-ui
+git clone https://github.com/My-VEnZo/vpn-ui.git && cd vpn-ui
 ./build.sh
 ```
 
 ## E2E Testing
 
-![E2E Test](https://raw.githubusercontent.com/Sir-MmD/vpn-ui/refs/heads/main/media/test_unit.png)
+![E2E Test](https://raw.githubusercontent.com/My-VEnZo/vpn-ui/refs/heads/main/media/test_unit.png)
 
 A complete **E2E** test written in Python has been designed for this project inside the `test_unit` folder, which you are welcome to use. The steps are as follows:
 
@@ -262,19 +262,3 @@ To test on only one specific operating system, you can use the `--only` switch:
 ```bash
 sudo ./run.sh --only ubuntu-24
 ```
-
-## Donate
-
-🔹USDC-Polygon: ```0xd955379bE5813F066Cb81870bfcEA6f4bb862c24```
-
-🔹USDT-BEP20: ```0xd955379bE5813F066Cb81870bfcEA6f4bb862c24```
-
-🔹USDT-TRC20: ```TE5BGUuRce6vF3F4fXSkYY635oUt3M3hzd```
-
-🔹TRX: ```TE5BGUuRce6vF3F4fXSkYY635oUt3M3hzd```
-
-🔹LTC: ```LTbdsmqt38o9bfa3pvcHTbDz6kKzQJzSLn```
-
-🔹BTC: ```bc1qjnedhmc4x85uwqn5zvh25f697n2pmn7etu69pg```
-
-🔹ETH: ```0xd955379bE5813F066Cb81870bfcEA6f4bb862c24```
